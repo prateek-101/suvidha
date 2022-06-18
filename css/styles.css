@@ -135,7 +135,7 @@ box-shadow: 0 1px 7px 0 rgb(0 0 0 / 30%);
     }
 }
 .img-div{
-    background: url("/images/IMG-20220223-WA0026.jpeg");
+    background: url("images/IMG-20220223-WA0026.jpeg");
     background-color: rgba(5,3,1,.5);
     background-blend-mode: multiply;
     padding-top: 1px;
