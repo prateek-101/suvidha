@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- CSS FILE -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
     <link rel="icon" href="images/suvidha_foundation.c012ebd0.png">
     <!-- Bootstrap JAVASCRIPT -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -20,7 +20,7 @@
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
 </head>
 
@@ -42,7 +42,10 @@
                   <a class="nav-link" href="#About-us">About Us</a>
                   <a class="nav-link" href="#ser">Programs</a>
                   <a class="nav-link" href="#footer">Contact Us</a>
-                  <button type="button" class="btn btn-warning nav-link">Join Us</button>
+                  <div class="button" id="button-bar">
+                    <div id="circle"></div>
+                    <a href="#">Join Us</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -53,13 +56,13 @@
       <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="400">
+            <img src="images/slider5.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
             <img src="images/slider4.jpeg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
             <img src="images/IMG-20220223-WA0014.jpeg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="images/slider5.jpeg" class="d-block w-100" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -81,7 +84,7 @@
         </div>
         <div class="col-lg-6 intro">
           <iframe id="ytplayer" type="text/html" width="520" height="300"
-  src="https://www.youtube.com/embed/watch/?v=GcCgwhRHMdU&list=TLGGsEyRvtZPlB8xMzA2MjAyMg"
+  src="https://www.youtube.com/embed/watch?v=GcCgwhRHMdU&t=2s"
   frameborder="0"></iframe>
         </div>
       </div>
@@ -97,24 +100,69 @@
       </div>
       <div class="row row-col-5 serdiv">
         <div class="col">
-          <img src="images/mentorshipIcon.83877db0.png" alt="" class="ser-img">
-          <h5>Student MentorShips</h5> 
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="images/mentorshipIcon.83877db0.png" alt="Avatar" class="ser-img">
+                <h5>Student MentorShips</h5>
+              </div>
+              <div class="flip-card-back">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolorum perspiciatis doloremque! Quia, autem molestiae! Odio consectetur veniam eius laborum quaerat, debitis nam blanditiis earum non, suscipit molestias! Ex, temporibus!</p>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="col">
-          <img src="images/internshipIcon.9a50fc62.png" alt="" class="ser-img">
-          <h5>Student Internship</h5>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="images/internshipIcon.9a50fc62.png" alt="Avatar" class="ser-img">
+                <h5>Student Internship</h5>
+              </div>
+              <div class="flip-card-back">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolorum perspiciatis doloremque! Quia, autem molestiae! Odio consectetur veniam eius laborum quaerat, debitis nam blanditiis earum non, suscipit molestias! Ex, temporibus!</p>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="col">
-          <img src="images/scholarshipIcon.76fac77e.png" alt="" class="ser-img">
-          <h5>Student Scholarship</h5>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="images/scholarshipIcon.76fac77e.png" alt="Avatar" class="ser-img">
+                <h5>Student Scholarship</h5>
+              </div>
+              <div class="flip-card-back">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolorum perspiciatis doloremque! Quia, autem molestiae! Odio consectetur veniam eius laborum quaerat, debitis nam blanditiis earum non, suscipit molestias! Ex, temporibus!</p>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="col">
-          <img src="images/WomenEmpIcon.dc868d3d.png" alt="" class="ser-img">
-          <h5>Women Empowerment</h5>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="images/WomenEmpIcon.dc868d3d.png" alt="Avatar" class="ser-img">
+                <h5>Women Empowerment</h5>
+              </div>
+              <div class="flip-card-back">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolorum perspiciatis doloremque! Quia, autem molestiae! Odio consectetur veniam eius laborum quaerat, debitis nam blanditiis earum non, suscipit molestias! Ex, temporibus!</p>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="col">
-          <img src="images/download.png" alt="" class="ser-img">
-          <h5>Free Workshops for School</h5>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="images/download.png" alt="Avatar" class="ser-img">
+                <h5>Free Workshops for School</h5>
+              </div>
+              <div class="flip-card-back">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolorum perspiciatis doloremque! Quia, autem molestiae! Odio consectetur veniam eius laborum quaerat, debitis nam blanditiis earum non, suscipit molestias! Ex, temporibus!</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -140,15 +188,18 @@
 
     <footer class="black-section" id="footer">
       <div class="container">
-        <div class="row">
-        <div class="col-lg-4 add" style="text-align:justify; padding: 0rem 3rem;">
+        <div class="row row-col-4">
+          <div class="col add" style="text-align:justify;">
+            <img src="images/image-removebg-preview.png" alt="" width="100%;">
+          </div>
+        <div class="col add" style="text-align:justify; ">
           <h5>Service</h5><hr>
           <ul style="list-style-type:none;">
             <li><a href="">Join</a> </li>
             <li><a href="">Program</a> </li>
           </ul>
         </div>
-        <div class="col-lg-4 add" style="text-align:justify; padding: 0rem 3rem;">
+        <div class="col add" style="text-align:justify; ">
           <h5>Contact Us</h5><hr>
           <ul style="list-style-type:none;">
             <li><i class="bi bi-geo-alt-fill"></i> H.No. 1951, W.N.4, Khaperkheda, Saoner, Nagpur</li>
@@ -157,7 +208,7 @@
           </ul>
         </div>
         
-        <div class="col-lg-4 add" style="text-align:justify; padding: 0rem 3rem;">
+        <div class="col add" style="text-align:justify;">
           <h5>More</h5><hr>
           <ul style="list-style-type:none;">
             <li><a href="">Privacy Policy</a> </li>
